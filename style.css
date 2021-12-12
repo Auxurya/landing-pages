@@ -2,6 +2,13 @@ body {
     margin: 0px;
 }
 
+.over-header,
+.under-header,
+.header-links,
+.pictures {
+    display: flex;
+}
+
 a,
 .hero-1,
 .hero-2 {
@@ -25,12 +32,6 @@ a,
     margin: 0px;
 }
 
-.over-header,
-.under-header,
-.header-links {
-    display: flex;
-}
-
 ul {
     margin-left: auto;
     gap: 10px;
@@ -48,4 +49,22 @@ a {
 
 .hero-2 {
     color: #E5E7EB;
+}
+
+figcaption {
+    color: #7e7e7e;
+}
+.pictures {
+    justify-content: space-around;
+    margin: 0px 300px;
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.section-2 p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
