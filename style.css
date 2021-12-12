@@ -2,6 +2,12 @@ body {
     margin: 0px;
 }
 
+a,
+.hero-1,
+.hero-2 {
+    color: white;
+}
+
 .section-1,
 .under-footer {
     background-color: #1F2937;
@@ -17,4 +23,29 @@ body {
 
 .under-footer p {
     margin: 0px;
+}
+
+.over-header,
+.under-header,
+.header-links {
+    display: flex;
+}
+
+ul {
+    margin-left: auto;
+    gap: 10px;
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-2 {
+    color: #E5E7EB;
 }
