@@ -69,6 +69,10 @@ a {
     margin: 0px;
 }
 
+figure img {
+    border-radius: 10px;
+}
+
 .hero-2,
 a {
     color: #E5E7EB;
@@ -94,4 +98,14 @@ figcaption {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.section-3 {
+    font-size: 36px;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+p#quote {
+    font-style: italic;
 }
