@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+}
+
+.section-1,
+.under-footer {
+    background-color: #1F2937;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.section-2 img {
+    max-width: 200px;
+}
+
+.under-footer p {
+    margin: 0px;
+}
