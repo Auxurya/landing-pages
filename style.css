@@ -20,6 +20,27 @@ a,
     background-color: #1F2937;
 }
 
+.under-header {
+    justify-content: center;
+}
+
+.left-under {
+    margin-top: 50px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.left-under button {
+    margin-top: 10px;
+}
+
 .section-3 {
     background-color: #E5E7EB;
 }
@@ -45,10 +66,16 @@ a {
 .hero-1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
 }
 
-.hero-2 {
+.hero-2,
+a {
     color: #E5E7EB;
+}
+
+.section-1 {
+    padding: 20px 200px;
 }
 
 figcaption {
